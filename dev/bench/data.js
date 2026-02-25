@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772032289083,
+  "lastUpdate": 1772061852051,
   "repoUrl": "https://github.com/cordum-io/cordum",
   "entries": {
     "Benchmark": [
@@ -336,6 +336,174 @@ window.BENCHMARK_DATA = {
             "value": 20,
             "unit": "allocs/op",
             "extra": "27499 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "76696443+yaront1111@users.noreply.github.com",
+            "name": "Yaron",
+            "username": "yaront1111"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a99c4c0eefcee1cdc487ac4e9f7564e06f4cb251",
+          "message": "Merge pull request #130 from cordum-io/yaront1111-patch-1\n\nUpdate images in README for visual enhancements",
+          "timestamp": "2026-02-26T01:20:09+02:00",
+          "tree_id": "a8d2d2225a9c2fd6a0ff259ba45a8d2f62e12146",
+          "url": "https://github.com/cordum-io/cordum/commit/a99c4c0eefcee1cdc487ac4e9f7564e06f4cb251"
+        },
+        "date": 1772061851552,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkHandlePacket",
+            "value": 21369,
+            "unit": "ns/op\t    5336 B/op\t      87 allocs/op",
+            "extra": "52435 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacket - ns/op",
+            "value": 21369,
+            "unit": "ns/op",
+            "extra": "52435 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacket - B/op",
+            "value": 5336,
+            "unit": "B/op",
+            "extra": "52435 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacket - allocs/op",
+            "value": 87,
+            "unit": "allocs/op",
+            "extra": "52435 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandleHeartbeat",
+            "value": 3044,
+            "unit": "ns/op\t     512 B/op\t      15 allocs/op",
+            "extra": "385864 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandleHeartbeat - ns/op",
+            "value": 3044,
+            "unit": "ns/op",
+            "extra": "385864 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandleHeartbeat - B/op",
+            "value": 512,
+            "unit": "B/op",
+            "extra": "385864 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandleHeartbeat - allocs/op",
+            "value": 15,
+            "unit": "allocs/op",
+            "extra": "385864 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacketWithLeastLoaded",
+            "value": 26708,
+            "unit": "ns/op\t    6049 B/op\t      95 allocs/op",
+            "extra": "42968 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacketWithLeastLoaded - ns/op",
+            "value": 26708,
+            "unit": "ns/op",
+            "extra": "42968 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacketWithLeastLoaded - B/op",
+            "value": 6049,
+            "unit": "B/op",
+            "extra": "42968 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacketWithLeastLoaded - allocs/op",
+            "value": 95,
+            "unit": "allocs/op",
+            "extra": "42968 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReconcilerTick",
+            "value": 1552056,
+            "unit": "ns/op\t  585547 B/op\t    8514 allocs/op",
+            "extra": "732 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReconcilerTick - ns/op",
+            "value": 1552056,
+            "unit": "ns/op",
+            "extra": "732 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReconcilerTick - B/op",
+            "value": 585547,
+            "unit": "B/op",
+            "extra": "732 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReconcilerTick - allocs/op",
+            "value": 8514,
+            "unit": "allocs/op",
+            "extra": "732 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection100",
+            "value": 7829,
+            "unit": "ns/op\t     568 B/op\t      20 allocs/op",
+            "extra": "154642 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection100 - ns/op",
+            "value": 7829,
+            "unit": "ns/op",
+            "extra": "154642 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection100 - B/op",
+            "value": 568,
+            "unit": "B/op",
+            "extra": "154642 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection100 - allocs/op",
+            "value": 20,
+            "unit": "allocs/op",
+            "extra": "154642 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection1000",
+            "value": 43727,
+            "unit": "ns/op\t     572 B/op\t      20 allocs/op",
+            "extra": "27453 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection1000 - ns/op",
+            "value": 43727,
+            "unit": "ns/op",
+            "extra": "27453 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection1000 - B/op",
+            "value": 572,
+            "unit": "B/op",
+            "extra": "27453 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection1000 - allocs/op",
+            "value": 20,
+            "unit": "allocs/op",
+            "extra": "27453 times\n4 procs"
           }
         ]
       }
