@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773915629196,
+  "lastUpdate": 1774280510419,
   "repoUrl": "https://github.com/cordum-io/cordum",
   "entries": {
     "Benchmark": [
@@ -2184,6 +2184,174 @@ window.BENCHMARK_DATA = {
             "value": 10,
             "unit": "allocs/op",
             "extra": "29766 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yaront1111@users.noreply.github.com",
+            "name": "yaront1111",
+            "username": "yaront1111"
+          },
+          "committer": {
+            "email": "yaront1111@users.noreply.github.com",
+            "name": "yaront1111",
+            "username": "yaront1111"
+          },
+          "distinct": true,
+          "id": "a8a7d40c65dc5968d7ef87b4b5fbe3377801b5e9",
+          "message": "chore: bump cap to v2.8.1 (Redis TLS + direct worker dispatch)\n\nCo-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>",
+          "timestamp": "2026-03-23T17:30:44+02:00",
+          "tree_id": "98492f5c97f5d1f6e192222578071e804b307149",
+          "url": "https://github.com/cordum-io/cordum/commit/a8a7d40c65dc5968d7ef87b4b5fbe3377801b5e9"
+        },
+        "date": 1774280509508,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkHandlePacket (github.com/cordum/cordum/core/controlplane/scheduler)",
+            "value": 18990,
+            "unit": "ns/op\t    5370 B/op\t      76 allocs/op",
+            "extra": "64792 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacket (github.com/cordum/cordum/core/controlplane/scheduler) - ns/op",
+            "value": 18990,
+            "unit": "ns/op",
+            "extra": "64792 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacket (github.com/cordum/cordum/core/controlplane/scheduler) - B/op",
+            "value": 5370,
+            "unit": "B/op",
+            "extra": "64792 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacket (github.com/cordum/cordum/core/controlplane/scheduler) - allocs/op",
+            "value": 76,
+            "unit": "allocs/op",
+            "extra": "64792 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandleHeartbeat (github.com/cordum/cordum/core/controlplane/scheduler)",
+            "value": 1808,
+            "unit": "ns/op\t     132 B/op\t       5 allocs/op",
+            "extra": "653544 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandleHeartbeat (github.com/cordum/cordum/core/controlplane/scheduler) - ns/op",
+            "value": 1808,
+            "unit": "ns/op",
+            "extra": "653544 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandleHeartbeat (github.com/cordum/cordum/core/controlplane/scheduler) - B/op",
+            "value": 132,
+            "unit": "B/op",
+            "extra": "653544 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandleHeartbeat (github.com/cordum/cordum/core/controlplane/scheduler) - allocs/op",
+            "value": 5,
+            "unit": "allocs/op",
+            "extra": "653544 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacketWithLeastLoaded (github.com/cordum/cordum/core/controlplane/scheduler)",
+            "value": 23370,
+            "unit": "ns/op\t    5767 B/op\t      83 allocs/op",
+            "extra": "51728 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacketWithLeastLoaded (github.com/cordum/cordum/core/controlplane/scheduler) - ns/op",
+            "value": 23370,
+            "unit": "ns/op",
+            "extra": "51728 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacketWithLeastLoaded (github.com/cordum/cordum/core/controlplane/scheduler) - B/op",
+            "value": 5767,
+            "unit": "B/op",
+            "extra": "51728 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkHandlePacketWithLeastLoaded (github.com/cordum/cordum/core/controlplane/scheduler) - allocs/op",
+            "value": 83,
+            "unit": "allocs/op",
+            "extra": "51728 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReconcilerTick (github.com/cordum/cordum/core/controlplane/scheduler)",
+            "value": 1141333,
+            "unit": "ns/op\t  473381 B/op\t    4512 allocs/op",
+            "extra": "1048 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReconcilerTick (github.com/cordum/cordum/core/controlplane/scheduler) - ns/op",
+            "value": 1141333,
+            "unit": "ns/op",
+            "extra": "1048 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReconcilerTick (github.com/cordum/cordum/core/controlplane/scheduler) - B/op",
+            "value": 473381,
+            "unit": "B/op",
+            "extra": "1048 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReconcilerTick (github.com/cordum/cordum/core/controlplane/scheduler) - allocs/op",
+            "value": 4512,
+            "unit": "allocs/op",
+            "extra": "1048 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection100 (github.com/cordum/cordum/core/controlplane/scheduler)",
+            "value": 6013,
+            "unit": "ns/op\t     188 B/op\t      10 allocs/op",
+            "extra": "200124 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection100 (github.com/cordum/cordum/core/controlplane/scheduler) - ns/op",
+            "value": 6013,
+            "unit": "ns/op",
+            "extra": "200124 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection100 (github.com/cordum/cordum/core/controlplane/scheduler) - B/op",
+            "value": 188,
+            "unit": "B/op",
+            "extra": "200124 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection100 (github.com/cordum/cordum/core/controlplane/scheduler) - allocs/op",
+            "value": 10,
+            "unit": "allocs/op",
+            "extra": "200124 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection1000 (github.com/cordum/cordum/core/controlplane/scheduler)",
+            "value": 40350,
+            "unit": "ns/op\t     195 B/op\t      10 allocs/op",
+            "extra": "29386 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection1000 (github.com/cordum/cordum/core/controlplane/scheduler) - ns/op",
+            "value": 40350,
+            "unit": "ns/op",
+            "extra": "29386 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection1000 (github.com/cordum/cordum/core/controlplane/scheduler) - B/op",
+            "value": 195,
+            "unit": "B/op",
+            "extra": "29386 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkWorkerSelection1000 (github.com/cordum/cordum/core/controlplane/scheduler) - allocs/op",
+            "value": 10,
+            "unit": "allocs/op",
+            "extra": "29386 times\n4 procs"
           }
         ]
       }
